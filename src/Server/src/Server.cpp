@@ -213,8 +213,8 @@ void Server::serverLoop()
 
         endFrame();
 
-        if (world){
+        /*if (world){
             saveWorld();
-        }
+        }*/
     }
 }
