@@ -18,7 +18,7 @@ OBJS	= $(SRCS:.cpp=.o)
 CPPFLAGS = -std=c++17 -I ./src/pp
 CPPFLAGS += -Wall -Wextra
 
-LDFLAGS = -L../../common/Lib -lraknet `sdl2-config --libs`
+LDFLAGS = -L../../common/Lib -lraknet
 
 LDLIBS = 
 
